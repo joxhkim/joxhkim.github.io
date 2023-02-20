@@ -13,11 +13,14 @@
 </head>
 
 <div class="container">
-    <div class="search-box">
-        <i class="fa-solid fa-location-dot"></i>
-        <input type="text" placeholder="Enter your location">
-        <button class="fa-solid fa-magnifying-glass"></button>
-    </div>
+    <iframe name="box" style="display: none;"></iframe>
+    <form method="post" target="box">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your location">
+            <button type="submit" class="fa-solid fa-magnifying-glass"></button>
+        </div>
+    </form>
 
     <div class="not-found">
         <img src="images/404.png">
